@@ -1,4 +1,5 @@
 
+
 import math
 
 def euclid(x, y):
@@ -8,11 +9,10 @@ def euclid(x, y):
   q = math.floor(x / y)
   r = x % y
   
-  print(String(x)  + " " + "=" + " " + String(y) + "*" + String(q) + " " + String(r))
+  print(str(x)  + " " + "=" + " " + str(y) + "*" + str(q) + " " + str(r))
   
   
   
-euclid(256, 64)  
   
-  
+euclid(256, 64) 
   
